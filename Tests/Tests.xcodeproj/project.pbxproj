@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD24EE641AB604E500864789 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE5F1AB604E500864789 /* CONTRIBUTING.md */; };
-		BD24EE651AB604E500864789 /* init.rb in Resources */ = {isa = PBXBuildFile; fileRef = BD24EE601AB604E500864789 /* init.rb */; };
 		BD24EE661AB604E500864789 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE611AB604E500864789 /* LICENSE.md */; };
-		BD24EE671AB604E500864789 /* PODNAME.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BD24EE621AB604E500864789 /* PODNAME.podspec */; };
 		BD24EE681AB604E500864789 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE631AB604E500864789 /* README.md */; };
 		BD6395581AB60456007976DE /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6395571AB60456007976DE /* Tests.swift */; };
 		BD63955E1AB604AC007976DE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD63955D1AB604AC007976DE /* .gitkeep */; };
@@ -18,9 +16,7 @@
 
 /* Begin PBXFileReference section */
 		BD24EE5F1AB604E500864789 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
-		BD24EE601AB604E500864789 /* init.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = init.rb; path = ../init.rb; sourceTree = "<group>"; };
 		BD24EE611AB604E500864789 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		BD24EE621AB604E500864789 /* PODNAME.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PODNAME.podspec; path = ../PODNAME.podspec; sourceTree = "<group>"; };
 		BD24EE631AB604E500864789 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BD6395521AB60456007976DE /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6395561AB60456007976DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,9 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				BD24EE5F1AB604E500864789 /* CONTRIBUTING.md */,
-				BD24EE601AB604E500864789 /* init.rb */,
 				BD24EE611AB604E500864789 /* LICENSE.md */,
-				BD24EE621AB604E500864789 /* PODNAME.podspec */,
 				BD24EE631AB604E500864789 /* README.md */,
 				BD63955C1AB604AC007976DE /* Source */,
 				BD6395541AB60456007976DE /* Tests */,
@@ -142,9 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD24EE671AB604E500864789 /* PODNAME.podspec in Resources */,
 				BD63955E1AB604AC007976DE /* .gitkeep in Resources */,
-				BD24EE651AB604E500864789 /* init.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
