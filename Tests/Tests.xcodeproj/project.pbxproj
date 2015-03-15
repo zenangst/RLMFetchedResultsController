@@ -10,6 +10,7 @@
 		BD24EE641AB604E500864789 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE5F1AB604E500864789 /* CONTRIBUTING.md */; };
 		BD24EE661AB604E500864789 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE611AB604E500864789 /* LICENSE.md */; };
 		BD24EE681AB604E500864789 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE631AB604E500864789 /* README.md */; };
+		BD24EE6A1AB6065600864789 /* RLMFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24EE691AB6065600864789 /* RLMFetchedResultsController.swift */; };
 		BD6395581AB60456007976DE /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6395571AB60456007976DE /* Tests.swift */; };
 		BD63955E1AB604AC007976DE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD63955D1AB604AC007976DE /* .gitkeep */; };
 /* End PBXBuildFile section */
@@ -18,6 +19,7 @@
 		BD24EE5F1AB604E500864789 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		BD24EE611AB604E500864789 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		BD24EE631AB604E500864789 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD24EE691AB6065600864789 /* RLMFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMFetchedResultsController.swift; sourceTree = "<group>"; };
 		BD6395521AB60456007976DE /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6395561AB60456007976DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD6395571AB60456007976DE /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		BD63955C1AB604AC007976DE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BD24EE691AB6065600864789 /* RLMFetchedResultsController.swift */,
 				BD63955D1AB604AC007976DE /* .gitkeep */,
 			);
 			name = Source;
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD24EE641AB604E500864789 /* CONTRIBUTING.md in Sources */,
+				BD24EE6A1AB6065600864789 /* RLMFetchedResultsController.swift in Sources */,
 				BD24EE661AB604E500864789 /* LICENSE.md in Sources */,
 				BD24EE681AB604E500864789 /* README.md in Sources */,
 				BD6395581AB60456007976DE /* Tests.swift in Sources */,
